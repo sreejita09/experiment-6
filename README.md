@@ -189,3 +189,40 @@ int main()
 ~~~
 
 ![image](https://github.com/user-attachments/assets/6c81152d-8466-4fbc-898f-3bfa2d08aa1b)
+
+
+for in while: 
+
+~~~
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int rows, columns, i = 1;
+    char ch;
+
+    cout << "number of rows: ";
+    cin >> rows;
+
+    cout << "number of columns: ";
+    cin >> columns;
+
+    cout << "character: ";
+    cin >> ch;
+
+    while (i <= rows) 
+    {
+        for (int j = 1; j <= columns; j++) 
+        {
+            cout << ch << " ";
+        }
+        cout <<endl;
+        i++;
+    }
+
+    return 0;
+}
+~~~
+
+![image](https://github.com/user-attachments/assets/d259bb7b-cd04-42e1-b07d-43b5d4667e1a)
