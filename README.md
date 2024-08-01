@@ -144,10 +144,48 @@ int main()
         cout <<endl;
         i++;
     }
-
     return 0;
 }
 ~~~
 output:
 ![image](https://github.com/user-attachments/assets/7a7a29ae-cb20-47be-9c5a-17844e3974bc)
 
+
+nested do while:
+
+~~~
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int rows, columns, i = 1;
+    char ch;
+
+    cout<<"number of rows: ";
+    cin>>rows;
+
+    cout<<"number of columns: ";
+    cin>>columns;
+
+    cout << "character: ";
+    cin >> ch;
+
+    do 
+    {
+        int j = 1;
+        do 
+        {
+            cout << ch <<" ";
+            j++;
+        } 
+        while (j <= columns);
+        cout << std::endl;
+        i++;
+    } 
+    while (i <= rows);
+    return 0;
+}
+~~~
+
+![image](https://github.com/user-attachments/assets/6c81152d-8466-4fbc-898f-3bfa2d08aa1b)
