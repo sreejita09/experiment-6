@@ -122,3 +122,32 @@ int main()
 ![image](https://github.com/user-attachments/assets/f9f88b47-b2a9-4f3f-8ced-5f3d98dda0d1)
 
 nested while 
+
+~~~
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int n;
+    cout << "Enter the number of rows for the triangle: ";
+    cin >> n;
+    int i = 1;
+    while (i <= n) 
+    {
+        int j = 1;
+        while (j <= i) 
+        {
+            std::cout << "*";
+            j++;
+        }
+        cout <<endl;
+        i++;
+    }
+
+    return 0;
+}
+~~~
+output:
+![image](https://github.com/user-attachments/assets/7a7a29ae-cb20-47be-9c5a-17844e3974bc)
+
