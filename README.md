@@ -1,7 +1,7 @@
 # Experiment 6
 
 # Aim
-Creating for, while, do while 
+To study and implement C++ decision making statements Loops
 
 # Theory 
 for loop is used to iterate a part of the program several times. If the number of iteration is fixed, it is recommended to use for loop
