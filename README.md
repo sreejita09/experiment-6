@@ -3,6 +3,9 @@
 # Aim
 To study and implement C++ decision making statements Loops
 
+# software used
+VS code 
+
 # Theory 
 for loop is used to iterate a part of the program several times. If the number of iteration is fixed, it is recommended to use for loop
 whiile loops can execute a block of code as long as a specified condition is reached
